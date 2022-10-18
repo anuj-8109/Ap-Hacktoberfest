@@ -25,14 +25,13 @@
     transition: 0.255s;
 }
 .menu-item{
-    border: 1px dotted blue;
+    border: 1px solid blue;
 }
 .list-menu{
-    border: 1px dotted cyan;
+    border: 1px solid cyan;
     width: 100px;
     list-style-type: none;
     transform: translate(-1000px);
-    text-decoration: underline double;
     text-decoration-color: rgb(86, 11, 155);
     transition: 0.255s;
     
@@ -74,10 +73,10 @@ input[type="checkbox"]:checked~.line2{
 }
 
 input[type="checkbox"]:checked~.line1 {
-    transform: rotate(45deg)translate(30%,30%);
+    transform: rotate(405deg)translate(30%,30%);
     
 }
 input[type="checkbox"]:checked~.line3{
-    transform: rotate(-45deg)translate(30%,-30%);
+    transform: rotate(-405deg)translate(30%,-30%);
     
 } 
