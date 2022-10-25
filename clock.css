@@ -10,11 +10,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(153, 16, 130, 0.801);
+    background-color: rgb(128, 0, 128);
   }
   
   .container {
-    background-color: rgba(15, 17, 21, 0.853);
+    background-color: rgba(6, 7, 7, 0.633);
     padding: 20px 60px;
     border-radius: 12px;
     min-width: 530px;
@@ -33,11 +33,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
   #reset{
-    display: none;
+    display: flex;
   }
   
   button {
@@ -45,8 +45,8 @@
     background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  
         background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
     
-    margin: 0 10px;
-    padding: 10px 55px;
+    margin: 15px 10px;
+    padding: 5px 55px;
     border-radius: 30px;
     font-size: 20px;
   }
